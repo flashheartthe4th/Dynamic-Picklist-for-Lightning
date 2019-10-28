@@ -61,7 +61,7 @@ The above will get the picklist values from the standard field 'Industry' on the
 
 The value specified in *items* in the *aura:iteration* must match the *name* from step 1.
 
-![Example of Metadata Based picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/alpha/img/example-metadata-picklist.png)
+![Example of Metadata Based picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/alpha/img/example-industry-picklist.png)
 
 ## Query Based Picklist
 
