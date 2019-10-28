@@ -43,7 +43,7 @@ N.B The '*name*' attribute needs to be unique, and will be referenced by the sel
 
     <c:DynamicPicklist isQuery="false" objectName="Account" fieldName="Industry" picklistValues="{!v.metaDataPicklist}" />
 
-The above will get the picklist values from the standard field 'Industry' on the Account object. For more advanced usage please see Advanced Options below.
+The above will get the picklist values from the standard field 'Industry' on the Account object.
 
 3 Add the select tag:
 
