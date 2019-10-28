@@ -7,7 +7,7 @@ You will need to use SFDX to push this code to your development environment.
 ## Example
 The below shows a picklist that has been dynamically created to populate the 'Primary Contact' (custom field) on the Account object:
 
-IMG
+![Example of Dynamic Picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/alpha/img/example-dynamic-picklist.png)
 
 To view this example push the code to your development environment and follow these steps:
 
