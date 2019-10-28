@@ -7,7 +7,7 @@ You will need to use SFDX to push this code to your development environment.
 ## Example
 The below shows a picklist that has been dynamically created to populate the 'Primary Contact' (custom field) on the Account object:
 
-![Example of Dynamic Picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/alpha/img/example-dynamic-picklist.png)
+![Example of Dynamic Picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/master/img/example-dynamic-picklist.png)
 
 To view this example push the code to your development environment and follow these steps:
 
@@ -61,7 +61,7 @@ The above will get the picklist values from the standard field 'Industry' on the
 
 The value specified in *items* in the *aura:iteration* must match the *name* from step 1.
 
-![Example of Metadata Based picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/alpha/img/example-dynamic-picklist.png)
+![Example of Metadata Based picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/master/img/example-industry-picklist.png)
 
 ## Query Based Picklist
 
@@ -97,7 +97,7 @@ The above will build a picklist based upon the query, and the field will store t
 
 The value specified in *items* in the *aura:iteration* must match the *name* from step 1.
 
-![Example of Query based picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/alpha/img/example-dynamic-picklist.png)
+![Example of Query based picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/master/img/example-dynamic-picklist.png)
 
 # Options / Attributes
 | Attribute | Description | Default Value |
