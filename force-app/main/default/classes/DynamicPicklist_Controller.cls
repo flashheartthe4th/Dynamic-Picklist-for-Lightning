@@ -1,7 +1,7 @@
 public with sharing class DynamicPicklist_Controller {
     
     @AuraEnabled
-    public static DynamicPickList[] getPicklistforQuery(String queryString,String labelField,String valueField,String objectName,String fieldName,boolean isQuery,string dataSource,boolean allowNull){
+    public static DynamicPickList[] getPicklistforQuery(String queryString,String labelField,String valueField,String objectName,String fieldName,boolean isQuery,boolean allowNull){
         DynamicPickList[] Picklist = new DynamicPickList[]{};
 
         if(allowNull)

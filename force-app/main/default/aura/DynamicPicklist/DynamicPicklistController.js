@@ -3,7 +3,6 @@
         var action = component.get('c.getPicklistforQuery');
         action.setParams({
             "isQuery": component.get('v.isQuery'),
-            "dataSource": component.get('v.dataSource'),
             "allowNull": component.get('v.allowNull'),
             "queryString": component.get('v.queryString'),
             "objectName": component.get('v.objectName'),

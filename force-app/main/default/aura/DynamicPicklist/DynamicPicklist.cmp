@@ -3,7 +3,6 @@
     <aura:attribute name='isQuery' type='Boolean' default="true"/>
     <aura:attribute name='allowNull' type='Boolean' default="true"/>
     <aura:attribute name='queryString' type='String'/>
-    <aura:attribute name='dataSource' type='String'/>
     <aura:attribute name='objectName' type='String'/>
     <aura:attribute name='fieldName' type='String'/>
     <aura:attribute name='labelField' type='String'/>

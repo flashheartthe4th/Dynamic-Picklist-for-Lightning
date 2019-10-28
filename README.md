@@ -61,7 +61,7 @@ The above will get the picklist values from the standard field 'Industry' on the
 
 The value specified in *items* in the *aura:iteration* must match the *name* from step 1.
 
-![Example of Metadata Based picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/alpha/img/example-industry-picklist.png)
+![Example of Metadata Based picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/alpha/img/example-dynamic-picklist.png)
 
 ## Query Based Picklist
 
@@ -98,3 +98,14 @@ The above will build a picklist based upon the query, and the field will store t
 The value specified in *items* in the *aura:iteration* must match the *name* from step 1.
 
 ![Example of Query based picklist in action](https://raw.githubusercontent.com/flashheartthe4th/dynamicPicklistLightning/alpha/img/example-dynamic-picklist.png)
+
+# Options / Attributes
+| Attribute | Description | Default Value |
+|--|--|--|
+| isQuery | Defines whether the picklist is to be build from a query | TRUE |
+| allowNull | Do you want to allow the user to select nothing | TRUE |
+| queryString | **Required for isQuery:** What query do you want to execute? If you need to include an Id or a string, enclose these with # as ' are escaped as part of SQL injection prevention. | NULL |
+| labelField | **Required for isQuery:** The name of the field you want to use as the value the user selects. Typically this will Name. | 'getLabel()' of 'getPicklistValues()' schema method |
+| valueField | **Required for isQuery:** The name of the field you want to store in the field. Typically this will be Id. | 'getValue()' of 'getPicklistValues()' schema method |
+| objectName | The API name, including namespace, of the Object where the field you are querying is contained | NULL |
+| fieldName | Required for isQuery The API name, including namespace, of the field where the value you require is contained | NULL |
